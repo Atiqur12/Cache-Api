@@ -1,0 +1,22 @@
+{
+  "name": "cache-api",
+  "version": "1.0.0",
+  "description": "A simple cache API with TTL, using Node.js and Jest for testing.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+"jest": {
+  "testEnvironment": "node",
+  "setupFilesAfterEnv": ["./tests/setupTests.js"]
+}
+,
+  "keywords": ["cache", "api", "ttl", "nodejs"],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
